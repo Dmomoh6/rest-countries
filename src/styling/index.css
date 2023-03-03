@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-blue: hsl(209, 23%, 22%);
+  --very-dark-blue: hsl(207, 26%, 17%);
+  --very-light-grey: hsl(0, 0%, 98%);
+  --light-white: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.toggle-theme {
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 10;
+}
+
+.logo-text {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.search-box {
+  font-size: 12.5px;
+  width: 21.5rem;
+  outline: none;
+}
+
+.search-icon {
+  display: flex;
+  margin: 0 -5px 0 25px;
+  z-index: 10;
+}
+
+.select-dropdown {
+  margin-top: 17rem;
+}
+
+.filter {
+  font-size: 12.5px;
+  width: 11rem;
+  z-index: 10;
+}
+
+li {
+  padding: 0px 0px 0px 10px;
+}
+
+ul.region-list li:hover {
+  background-color: #eeeeee;
+}
+
+ul.dark-list li:hover {
+  background-color: var(--very-dark-blue);
+}
+
+.text-bold {
+  font-weight: 800;
+}
+
+.text-medium {
+  font-weight: 600;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.back-button {
+  font-size: 13.5px;
+  width: 7.5rem;
+}
